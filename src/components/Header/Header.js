@@ -17,7 +17,7 @@ const Header = (props) => {
     return (
         <Navbar expand='lg' sticky='top' className='header'>
             {/* Homepage */}
-            <Nav.Link as={NavLink} to='/' className='header_navlink'>
+            <Nav.Link as={NavLink} to='/resume' className='header_navlink'>
                 <Navbar.Brand className='header_home'>
                     <HomeRounded />
                 </Navbar.Brand>

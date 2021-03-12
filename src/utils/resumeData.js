@@ -8,6 +8,16 @@ import AssignmentIndOutlinedIcon from '@material-ui/icons/AssignmentIndOutlined'
 import PlayCircleFilledWhiteOutlinedIcon from '@material-ui/icons/PlayCircleFilledWhiteOutlined';
 import { YoutubeSearchedFor } from '@material-ui/icons';
 
+// incliding images
+import FriendsApp from '../assets/images/FriendsApp.png';
+import Outdoors from '../assets/images/Outdoors.png';
+import TourSite from '../assets/images/Toursite.png';
+import HomeDealer from '../assets/images/HomeDealer.png';
+import ToDo from '../assets/images/ToDo.png';
+import Game from '../assets/images/Game.png';
+import Birthday from '../assets/images/Birthday.png';
+import Burger from '../assets/images/Burger.png';
+
 export default {
     name: 'Devjit Choudhury',
     title: 'Web Developer & Open Source Enthuiast',
@@ -123,13 +133,14 @@ export default {
             ],
         },
         {
-            title: 'SOURCE CONTROL',
+            title: 'OTHERS',
             description: [
                 'Git',
                 'Github',
-                'Heroku'
+                'C++',
+                'ComputerVision',
             ],
-        },
+        }
     ],
 
     projects: [
@@ -142,55 +153,103 @@ export default {
             links: [
                 { link: 'https://www.google.com', icon: <YoutubeSearchedFor /> },
                 { link: 'https://www.google.com', icon: <YoutubeSearchedFor /> },
-                { link: 'https://www.google.com', icon: <YoutubeSearchedFor /> },
+
             ]
         },
         {
             tag: 'React',
-            image: 'https://i.pinimg.com/originals/6e/4b/2e/6e4b2e5e016ee15a405be4e09decfdc9.png',
-            title: 'React Project1',
+            image: Burger,
+            title: 'Burger App',
             caption: 'A short Description',
             desciption: 'This is the description for my Project 2',
             links: [
-                { link: 'https://www.google.com', icon: <YoutubeSearchedFor /> },
-                { link: 'https://www.google.com', icon: <YoutubeSearchedFor /> },
-                { link: 'https://www.google.com', icon: <YoutubeSearchedFor /> },
+                { link: 'https://github.com/devartstar/Burger', icon: <YoutubeSearchedFor /> },
+                { link: 'https://github.com/devartstar/Burger', icon: <YoutubeSearchedFor /> },
+
             ]
         },
         {
             tag: 'Ruby on Rails',
-            image: 'https://i.pinimg.com/originals/6e/4b/2e/6e4b2e5e016ee15a405be4e09decfdc9.png',
-            title: 'RubyOnRails Project1',
-            caption: 'A short Description',
-            desciption: 'This is the description for my Project 1',
+            image: FriendsApp,
+            title: 'Friends App',
+            caption: 'Built the Sign In and Sign Up feature using Ruby on Rails',
+            desciption: 'Manage your account, also reset password if forgotten, to list your special friends.',
             links: [
-                { link: 'https://www.google.com', icon: <YoutubeSearchedFor /> },
-                { link: 'https://www.google.com', icon: <YoutubeSearchedFor /> },
+                { link: 'https://list-ur-friends.herokuapp.com/', icon: <YoutubeSearchedFor /> },
+
                 { link: 'https://www.google.com', icon: <YoutubeSearchedFor /> },
             ]
         },
         {
             tag: 'CSS',
-            image: 'https://i.pinimg.com/originals/6e/4b/2e/6e4b2e5e016ee15a405be4e09decfdc9.png',
-            title: 'Project with Amazing styling',
+            image: Outdoors,
+            title: 'Natours',
             caption: 'A short Description',
             desciption: 'This is the description for my Project 1',
             links: [
-                { link: 'https://www.google.com', icon: <YoutubeSearchedFor /> },
-                { link: 'https://www.google.com', icon: <YoutubeSearchedFor /> },
-                { link: 'https://www.google.com', icon: <YoutubeSearchedFor /> },
+                { link: 'https://devartstar.github.io/My_Travelling_Website/', icon: <YoutubeSearchedFor /> },
+                { link: 'https://github.com/devartstar/My_Travelling_Website', icon: <YoutubeSearchedFor /> },
+
             ]
         },
         {
             tag: 'CSS',
-            image: 'https://i.pinimg.com/originals/6e/4b/2e/6e4b2e5e016ee15a405be4e09decfdc9.png',
-            title: 'Project with Amazing styling',
+            image: TourSite,
+            title: 'Tour Site',
             caption: 'A short Description',
             description: 'This is the description for my Project 1',
             links: [
-                { link: 'https://www.google.com', icon: <YoutubeSearchedFor /> },
-                { link: 'https://www.google.com', icon: <YoutubeSearchedFor /> },
-                { link: 'https://www.google.com', icon: <YoutubeSearchedFor /> },
+                { link: 'https://devartstar.github.io/Tour_Site/', icon: <YoutubeSearchedFor /> },
+                { link: 'https://github.com/devartstar/Tour_Site', icon: <YoutubeSearchedFor /> },
+
+            ]
+        },
+        {
+            tag: 'CSS',
+            image: HomeDealer,
+            title: 'Nexter Home Dealership Site',
+            caption: 'A short Description',
+            description: 'This is the description for my Project 1',
+            links: [
+                { link: 'https://devartstar.github.io/Nexter-HomeDealership/', icon: <YoutubeSearchedFor /> },
+                { link: 'https://github.com/devartstar/Nexter-HomeDealership', icon: <YoutubeSearchedFor /> },
+
+            ]
+        },
+        {
+            tag: 'JavaScript',
+            image: ToDo,
+            title: 'Notes App',
+            caption: 'A short Description',
+            description: 'This is the description for my Project 1',
+            links: [
+                { link: 'https://devartstar.github.io/To-do-LIst/', icon: <YoutubeSearchedFor /> },
+                { link: 'https://github.com/devartstar/To-do-LIst', icon: <YoutubeSearchedFor /> },
+
+            ]
+        },
+        {
+            tag: 'JavaScript',
+            image: Game,
+            title: 'Games App',
+            caption: 'A short Description',
+            description: 'This is the description for my Project 1',
+            links: [
+                { link: 'https://devartstar.github.io/Game/', icon: <YoutubeSearchedFor /> },
+                { link: 'https://github.com/devartstar/Game', icon: <YoutubeSearchedFor /> },
+
+            ]
+        },
+        {
+            tag: 'JavaScript',
+            image: Birthday,
+            title: 'Friends Birthday App',
+            caption: 'A short Description',
+            description: 'This is the description for my Project 1',
+            links: [
+                { link: 'https://devartstar.github.io/FriendsBirthday/', icon: <YoutubeSearchedFor /> },
+                { link: 'https://github.com/devartstar/FriendsBirthday', icon: <YoutubeSearchedFor /> },
+
             ]
         }
     ]
