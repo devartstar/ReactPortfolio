@@ -1,12 +1,12 @@
 import React from 'react';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
-import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import LanguageOutlinedIcon from '@material-ui/icons/LanguageOutlined';
 import AssignmentIndOutlinedIcon from '@material-ui/icons/AssignmentIndOutlined';
 import PlayCircleFilledWhiteOutlinedIcon from '@material-ui/icons/PlayCircleFilledWhiteOutlined';
-import { YoutubeSearchedFor } from '@material-ui/icons';
+import LanguageIcon from '@material-ui/icons/Language';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 // incliding images
 import FriendsApp from '../assets/images/FriendsApp.png';
@@ -151,8 +151,8 @@ export default {
             caption: 'A short Description',
             desciption: 'This is the description for my Project 1',
             links: [
-                { link: 'https://www.google.com', icon: <YoutubeSearchedFor /> },
-                { link: 'https://www.google.com', icon: <YoutubeSearchedFor /> },
+                { link: 'https://www.google.com', icon: <LanguageIcon /> },
+                { link: 'https://www.google.com', icon: <GitHubIcon /> },
 
             ]
         },
@@ -163,8 +163,8 @@ export default {
             caption: 'A short Description',
             desciption: 'This is the description for my Project 2',
             links: [
-                { link: 'https://github.com/devartstar/Burger', icon: <YoutubeSearchedFor /> },
-                { link: 'https://github.com/devartstar/Burger', icon: <YoutubeSearchedFor /> },
+                { link: 'https://tranquil-dawn-51895.herokuapp.com/', icon: <LanguageIcon /> },
+                { link: 'https://github.com/devartstar/Burger', icon: <GitHubIcon /> },
 
             ]
         },
@@ -175,9 +175,8 @@ export default {
             caption: 'Built the Sign In and Sign Up feature using Ruby on Rails',
             desciption: 'Manage your account, also reset password if forgotten, to list your special friends.',
             links: [
-                { link: 'https://list-ur-friends.herokuapp.com/', icon: <YoutubeSearchedFor /> },
-
-                { link: 'https://www.google.com', icon: <YoutubeSearchedFor /> },
+                { link: 'https://list-ur-friends.herokuapp.com/', icon: <LanguageIcon /> },
+                { link: 'https://www.google.com', icon: <GitHubIcon /> },
             ]
         },
         {
@@ -187,8 +186,8 @@ export default {
             caption: 'A short Description',
             desciption: 'This is the description for my Project 1',
             links: [
-                { link: 'https://devartstar.github.io/My_Travelling_Website/', icon: <YoutubeSearchedFor /> },
-                { link: 'https://github.com/devartstar/My_Travelling_Website', icon: <YoutubeSearchedFor /> },
+                { link: 'https://devartstar.github.io/My_Travelling_Website/', icon: <LanguageIcon /> },
+                { link: 'https://github.com/devartstar/My_Travelling_Website', icon: <GitHubIcon /> },
 
             ]
         },
@@ -199,8 +198,8 @@ export default {
             caption: 'A short Description',
             description: 'This is the description for my Project 1',
             links: [
-                { link: 'https://devartstar.github.io/Tour_Site/', icon: <YoutubeSearchedFor /> },
-                { link: 'https://github.com/devartstar/Tour_Site', icon: <YoutubeSearchedFor /> },
+                { link: 'https://devartstar.github.io/Tour_Site/', icon: <LanguageIcon /> },
+                { link: 'https://github.com/devartstar/Tour_Site', icon: <GitHubIcon /> },
 
             ]
         },
@@ -211,8 +210,8 @@ export default {
             caption: 'A short Description',
             description: 'This is the description for my Project 1',
             links: [
-                { link: 'https://devartstar.github.io/Nexter-HomeDealership/', icon: <YoutubeSearchedFor /> },
-                { link: 'https://github.com/devartstar/Nexter-HomeDealership', icon: <YoutubeSearchedFor /> },
+                { link: 'https://devartstar.github.io/Nexter-HomeDealership/', icon: <LanguageIcon /> },
+                { link: 'https://github.com/devartstar/Nexter-HomeDealership', icon: <GitHubIcon /> },
 
             ]
         },
@@ -223,8 +222,8 @@ export default {
             caption: 'A short Description',
             description: 'This is the description for my Project 1',
             links: [
-                { link: 'https://devartstar.github.io/To-do-LIst/', icon: <YoutubeSearchedFor /> },
-                { link: 'https://github.com/devartstar/To-do-LIst', icon: <YoutubeSearchedFor /> },
+                { link: 'https://devartstar.github.io/To-do-LIst/', icon: <LanguageIcon /> },
+                { link: 'https://github.com/devartstar/To-do-LIst', icon: <GitHubIcon /> },
 
             ]
         },
@@ -235,8 +234,8 @@ export default {
             caption: 'A short Description',
             description: 'This is the description for my Project 1',
             links: [
-                { link: 'https://devartstar.github.io/Game/', icon: <YoutubeSearchedFor /> },
-                { link: 'https://github.com/devartstar/Game', icon: <YoutubeSearchedFor /> },
+                { link: 'https://devartstar.github.io/Game/', icon: <LanguageIcon /> },
+                { link: 'https://github.com/devartstar/Game', icon: <GitHubIcon /> },
 
             ]
         },
@@ -247,8 +246,8 @@ export default {
             caption: 'A short Description',
             description: 'This is the description for my Project 1',
             links: [
-                { link: 'https://devartstar.github.io/FriendsBirthday/', icon: <YoutubeSearchedFor /> },
-                { link: 'https://github.com/devartstar/FriendsBirthday', icon: <YoutubeSearchedFor /> },
+                { link: 'https://devartstar.github.io/FriendsBirthday/', icon: <LanguageIcon /> },
+                { link: 'https://github.com/devartstar/FriendsBirthday', icon: <GitHubIcon /> },
 
             ]
         }
